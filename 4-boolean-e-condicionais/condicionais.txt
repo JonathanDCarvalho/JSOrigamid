@@ -1,0 +1,43 @@
+Boolean e Condicionais
+
+Boolean existem 2 valores, true ou false.
+
+Truthy e Falsy
+
+Existem valores em retornam true e outros que retornam false quando verificados em uma expressão booleana.
+
+Falsy:
+
+if(false)
+if(0)
+if(NaN)
+if(null)
+if(undefined)
+if('')
+
+Todo o restante é Truthy.
+
+Operador Lógico de Negação. !
+
+Operador de Compração:
+
+> Maior
+>=Maior ou igual
+< Menor
+<=Menor ou Igual
+= Atribuição
+
+== Igual (Não compara o tipo primitivo)
+=== Estritamente Igual (Compara o tipo)
+
+!= Não é Igual
+!== Não é Igual (Estritamente)
+
+Operadores Lógicos
+
+&& = E
+|| = OU
+
+No operador lógico && (E), se ambos as partes estiverem retornando true, o valor retornado é sempre o último verificado
+
+No operador lógico || (OU), se algum dos valores for true, ele irá retornando o primeiro valor true encontrado.

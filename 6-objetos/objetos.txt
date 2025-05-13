@@ -1,0 +1,17 @@
+Objetos:
+
+Conjunto de variáveis e funções, que são chamadas de propriedades e métodos.
+Métodos: É uma propriedade que possui uma função no local do seu valor.
+
+Objetos servem para organizar o código em pequenas partes reutilizáveis.
+
+Dot Notation Get
+- Acesse propriedades de um objeto utilizando o ponto .
+
+Dot Notation Set
+- Substitua o valor de uma propriedade utilizando . e o = após o nome da mesma.
+
+Palavra-chave this
+- this irá fazer uma referência ao próprio objeto.
+
+O objeto herda propriedades e métodos do objeto que foi utilizado para criar o mesmo. hasOwnProperty é um método de Object
