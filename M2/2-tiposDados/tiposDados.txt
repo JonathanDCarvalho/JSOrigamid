@@ -1,0 +1,12 @@
+7 tipos de Dados
+
+Todos são primitivos menos o objeto.
+Primitivos são dados imutáveis.
+
+- String
+- Number
+- Boolean
+- Undefined
+- Null
+- Symbol
+- Object

@@ -15,3 +15,8 @@ Palavra-chave this
 - this irá fazer uma referência ao próprio objeto.
 
 O objeto herda propriedades e métodos do objeto que foi utilizado para criar o mesmo. hasOwnProperty é um método de Object
+
+Tudo é Objeto
+- Strings, Números, Boolean, Objetos e mais, possuem propriedades e métodos. Por isso são objetos.
+
+- Uma string herda propriedades e métodos do construtor String()

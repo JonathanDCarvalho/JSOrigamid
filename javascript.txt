@@ -1,0 +1,3 @@
+JavaScript é uma linguagem interpretada.
+Serve para Front-End, Back-End e Jogos.
+
