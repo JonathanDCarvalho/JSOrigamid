@@ -1,0 +1,18 @@
+forEach
+Constantemente vamos selecionar uma lista de itens do dom. A melhor forma para interagirmos com os mesmos é utilizando o método forEach.
+
+const imgs = document.querySelectorAll('img');
+
+imgs.forEach(function(item){
+  console.log(item);
+});
+
+forEach e Array
+forEach é um método de Array, alguns objetos array-like possuem este método. Caso não possua, o ideal é transformá-los em uma array.
+
+const titulos = document.getElementsByClassName('titulo');
+const titulosArray = Array.from(titulos);
+
+titulosArray.forEach(function(item){
+  console.log(item);
+});
