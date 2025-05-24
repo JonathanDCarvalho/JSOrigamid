@@ -1,0 +1,13 @@
+DOM para Iniciantes
+O que é o DOM
+
+Document Object Model (DOM)
+É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, estilo e conteúdo destes documentos.
+
+Window e Document
+São os objetos principais do DOM, boa parte da manipulação é feita através dos seus métodos e propriedades.
+
+window é o objeto global, por isso não precisamos chamar ele na frente dos seus métodos e propriedades.
+
+Node
+Toda tag html é representada pelo objeto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node.
