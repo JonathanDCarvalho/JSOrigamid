@@ -1,25 +1,51 @@
-// Mostre no console cada parágrado do site
-const p = document.querySelectorAll("p");
-console.log(p);
-p.forEach((fields) => {
-	console.log(fields);
-});
-// Mostre o texto dos parágrafos no console
-const paragrafo = document.querySelectorAll("p");
-paragrafo.forEach((fields) => {
-	console.log(fields.innerText);
-});
+// Height e Width
+const listaAnimais = document.querySelector(".animais-lista");
+const height = listaAnimais.scrollHeight;
+console.log(height);
 
-// Como corrigir os erros abaixo:
-const imgs = document.querySelectorAll("img");
+//offsetTop e offsetLeft
+const animaisTop = listaAnimais.offsetTop;
+console.log(animaisTop);
 
-imgs.forEach((item, index) => {
-	console.log(item, index);
-});
+const primeiroh2 = document.querySelector("h2");
+const h2left = primeiroh2.offsetLeft;
+console.log(h2left);
 
-let i = 0;
-imgs.forEach(() => {
-	console.log(i++);
-});
+// getBoundingClientRect()
+const rect = primeiroh2.getBoundingClientRect();
+console.log(rect);
 
-imgs.forEach(() => i++);
+// Window
+console.log(window.innerWidth, window.outerWidth, window.innerHeight, window.outerHeight, window.pageYOffset, window.pageXOffset);
+
+// matchMedia();
+// Utilize um media-querie como no CSS para verificar a largura do browser.
+const small = window.matchMedia("(max-width: 600px)").matches;
+
+if (small) {
+	console.log("Usuário mobile");
+} else {
+	console.log("Usuário Desktop");
+}
+
+// Verifique a distância da primeira imagem
+// em relação ao topo da página
+const img = document.querySelector("img");
+const imgTop = img.offsetTop;
+console.log(imgTop);
+// Retorne a soma da largura de todas as imagens
+
+// Verifique se os links da página possuem
+// o mínimo recomendado para telas utilizadas
+// com o dedo. (48px/48px de acordo com o google)
+
+// Se o browser for menor que 720px,
+// adicione a classe menu-mobile ao menu
+const menu = document.querySelector(".menu");
+const browser = window.matchMedia("(max-width: 720px)").matches;
+if (browser) {
+	menu.classList.add("menu-mobile");
+	console.log(menu.classList);
+} else {
+	console.log(menu.classList);
+}
